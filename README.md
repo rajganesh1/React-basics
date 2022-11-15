@@ -1,70 +1,69 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
+These concepts were bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Concepts covered:
 
-### `npm test`
+1. Class components
+2. Functional Components
+3. Updating Hooks
+4. Passing down props
+5. state and setState
+6. Destructuring props and state
+7. Event handling and Binding Events
+8. conditional rendering of lists and keys using index as anti-key pattern
+9. Form handling and CSS
+10. Component LifeCycle Methods 
+    1.  constructor(props)
+    2.  static getDerivedStateFromProps(props,state)
+    3.  render()
+    4.  componentDidMount()
+    5.  shouldComponentUpdate(nextProps,nextState)
+    6.  getSnapshotBeforeUpdate(prevProps, prevState)
+    7.  componentDidUpdate(prevProps,prevState,snapshot)
+    8.  componentWillUnmount()
+    9.  static getDervicedStateFromError(error)
+    10. componentDidCatch(error,info)
+11. Fragments
+12. Pure Components VS Regular Components
+13. Memo for functional components
+14. Refs with class and functional components
+15. Forwarding Refs for FocusInputs
+16. Portals and Error Boundaries
+17. Higher order components for sharing common functionalities
+18. Rendering props
+19. Context(providers and consumers)
+20. Fetching Data(GET and POST)
+21. React Hooks
+    1.  useState 
+    2.  useEffect and conditional render for run effects
+    3.  Fetching Data using useState and useEffect
+    4.  useContext
+    5.  useReducer and multiple useReducers
+    6.  Fetching data using useReducers
+    7.  useCallBack to cache the function(prevState function)
+    8.  useMemo to cache the value(prevProps value)
+    9.  useRef for focusInputs
+    10. customHooks
+        1.  useDocumentTitle
+        2.  useCounter
+        3.  useInput
+22. React Rendering
+    1.  Render useState
+    2.  Render useEffect
+    3.  Render useReducer
+    4.  State immutability for objects and functions
+    5.  Parent and child rendering
+    6.  Optimization techniques in rendering
+        1.  Same element reference(passing props to child)
+        2.  React memo
+    7. Incorrect memo's with children, memo with props reference, memo with impure component
+    8. Render useMemo
+    9. Render useCallBack
+    10. Render context and memo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
